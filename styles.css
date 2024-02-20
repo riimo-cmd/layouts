@@ -1,0 +1,27 @@
+
+
+body{
+    margin: 5vh 10vw;
+}
+
+hr{
+    border: none;
+    color: red;
+    background: red;
+    height: 5px;
+}
+
+header, #center, #bottom{
+    display:flex;
+    width: 100%;
+}
+
+header .center{
+    width:90%;
+}
+
+h1{
+    margin:0;
+}
+
+
