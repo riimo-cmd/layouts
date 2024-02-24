@@ -1,13 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body{
     margin: 5vh 10vw;
+    font-family: "Rubik", sans-serif;
 }
 
 hr{
     border: none;
-    color: red;
-    background: red;
+    color: hotpink;
+    background: hotpink;
     height: 5px;
 }
 
@@ -24,4 +25,142 @@ h1{
     margin:0;
 }
 
+#logo{
+    padding-right: .5em;
+}
 
+#pfp{
+    height: 56px;
+    padding-left: .5em;
+    border-radius: 3px;
+    
+}
+
+ .left, .right{
+    width: clamp(40ch, 20%, 75ch);
+}
+
+.center{
+    width: 60%;
+}
+
+.right{
+    float: right;
+}
+table{
+    width: 100%;
+}
+
+td{
+    width: 50%;
+}
+
+#search{
+    background-color: #ccc;
+    margin: 0 auto;
+    padding: 3% 0 3% 1%;
+    align-items: center;
+}
+
+form{
+    margin: 0 auto;
+}
+
+table{
+    background: #eee;
+    padding: 3pt;
+    
+}
+
+h4, h2{
+    margin-top:0;
+}
+
+
+
+#center{
+    margin-top: 2em;
+}
+
+.deco{
+    display: block;
+margin: 0 auto;
+}
+
+
+.quote{
+    font-style: italic;
+    font-size: 10pt;
+    text-align: center;
+    margin: 5pt;
+    padding-bottom: 2.5pt;
+    border-bottom: 1px solid #ccc;
+}
+
+a{
+    color: DodgerBlue;
+}
+
+a:visited{
+    color: DarkCyan;
+}
+
+h2{
+    border-bottom: 1px solid #ccc;
+}
+
+article{
+    min-width: 45ch;
+    max-width: 75ch;
+    margin-top: 3%;
+}
+
+.subtitle{
+    margin-top: 0px;
+    color: #555;
+    font-style: italic;
+    font-size: 12pt;
+}
+
+.return, .return:visited{
+    color: hotpink;
+    font-style: italic;
+    font-size: small;
+}
+
+sub{
+    font-size: small;
+}
+
+article > h2{
+    margin-bottom: .5em;
+}
+
+h3{
+    margin: 0;
+    color: white;
+    background: hotpink;
+    padding: 3px 5px;
+    font-size: 10pt;
+}
+
+h4{
+    font-size: 12pt;
+    margin-bottom: .5em;
+}
+
+td > p{
+    margin: 0;
+}
+
+.top{
+    margin-bottom: 10px !important;
+}
+
+.center{
+    margin: 0 2%;
+}
+
+header .center{
+    margin: revert;
+}

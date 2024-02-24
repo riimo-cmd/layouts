@@ -5,49 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="styles.css">
+    
   </head>
   <body>
     <!--based on the old excite site: https://youtu.be/Ngiq4T1GApM?si=vhLuBrgaQz1Jop-1&t=1383-->
-    <!--TODO: Find images D:-->
+    <!--TODO: Add widgets-->
     <!--Logo, photo, header-->
     <header>
-        <img src="logo" alt="logo" id="logo">
+        <img src="https://whiteheartrainbowsoul.neocities.org/images/buttons/kirby-stamp-2-by-aestheticstamps-d9im8gq.png" alt="logo" id="logo">
         <div class="center">
-            <h1>WeLcOmE 2 ℵ0</h1>
+            <h1>WeLcOmE 2 ℵ<sub>0</sub></h1>
             <hr>
         </div>
-            <img src="logo.png" alt="profile image" id="pfp">
+            <img src="https://whiteheartrainbowsoul.neocities.org/images/buttons/8-26-23/nyan5.gif" alt="profile image" id="pfp">
     </header> 
     <!--Recent Updates, Search, Other kewl sites, socials-->
     <div id="center">
         <div class="left" id="updates">
             <div class="heading">
                 <h2>Recent Updates</h2>
-                <p>Last Upadated: 3/7/1924</p>
+                <p>Last Updated: 3/7/1924</p>
             </div>
             <p>The site's now live! Hello World! :D</p>
-            <p><a href="journal/2-20-24.txt">Latest Journal Entry!</a></p>
+            <p><a href="./journal/2-20-2024.txt">Latest Journal Entry!</a></p>
         </div>
         <div class="center">
-            <div class="top" id="search"></div>
+            <div class="top search" id="search">
+                    <form action="https://www.duckduckgo.com" role="search">
+                        <label for="q">Search the Web:</label>
+                        <input id="q" type="text" name="q" autocomplete="off">
+                        <button type="submit">Go!</button>
+                    </form>
+            </div>
             <div class="bottom" id="sites">
+                <h3>Friends!</h3>
                 <table>
                 <tr>
                     <td>
                         <h4>Ryn</h4>
-                        <p><a href="whiteheartrainbowsoul.neocities.org">neocities</a>, <a href="riimo-cmd.github.io">github</a></p>
+                        <p><a target="_blank" href="https://whiteheartrainbowsoul.neocities.org">neocities</a>, <a target="_blank" href="https://riimo-cmd.github.io">github</a></p>
                     </td>
                     <td>
-                        <h4>Tomo</h4>
-                        <p><a href="wisetomo.neocities.org">neocities</a></p>
+                        <!-- <h4>Tomo</h4>
+                        <p><a target="_blank" href="https://wisetomo.neocities.org">neocities</a></p> -->
                     </td>
                 </tr>
             </table>
             </div>
         </div>
-        <div class="right"></div>
+        <div class="right">
+            <h3>Find me</h3>
+            <ul>
+                <li>
+                    <a href="https://www.spacehey.com" target="_blank">My Spacehey</a>
+                    
+                </li>
+                <li>
+                    <a href="https://www.weather.com" target="_blank">My Guestbook</a>
+                </li>
+            </ul>
+            <img src="https://whiteheartrainbowsoul.neocities.org/images/newstuff/9b96f1c0_original.gif" class="deco">
+            <p class="quote">I'm gonna do an internet!</p>
+        </div>
     </div>
-    <!--Weather, Stocks, projects, Calander, now watching-->
-    <div id="bottom"></div>
+    <!--Weather, Stocks, projects, Calendar, now watching-->
+    <div id="bottom">
+        <div class="left">
+            <div class="top">
+                <h3>Weather (or not)</h3>
+                <p>This is supposed to be a weather widget!</p>
+                <div onload="getWeather()" id="weather"></div>
+            </div>
+            <div class="bottom">
+                <h3>Stonks</h3>
+                <p>This is supposed to be a stock widget!</p>
+            </div>
+        </div>
+        <div class="center">
+            <h3>Nouveau News</h3>
+            <p>This is supposed to be a news feed!</p>
+        </div>
+        <div class="right">
+            <h3>Just For Fun</h3>
+            <div class="top">
+                <p>This is supposed to be a calendar widget!</p>
+            </div>
+            <div class="bottom">
+                <p><strong>Currently: </strong>playing kirby</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
