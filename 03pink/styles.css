@@ -164,3 +164,20 @@ td > p{
 header .center{
     margin: revert;
 }
+
+.calendar{
+    color: black;
+    background: transparent;
+    max-width: fit-contents;
+}
+
+.calendar p{
+    font-size: small;
+    font-weight: 400;
+    margin: 0;
+}
+
+.calendar td, th{
+    border: 1px solid black;
+    width: 2ch;
+}

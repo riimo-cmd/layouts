@@ -1,0 +1,22 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    background: url("./images/skytile.gif")
+}
+
+h1{
+
+}
+
+h2{
+    font-size: 1.17em;
+}
+
+h2 > marquee{
+    font-face: "Times New Roman", sans-serif;
+    color: blue;
+    background: white;
+}
+
+
