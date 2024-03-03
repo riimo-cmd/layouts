@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body{
-    margin: 5vh 10vw;
+    margin: 5vh auto;
     font-family: "Rubik", sans-serif;
+}
+.wrapper{
+    width: 90vw;
+    margin: 0 auto;
 }
 
 hr{
@@ -84,9 +88,9 @@ h4, h2{
 
 .deco{
     display: block;
-margin: 0 auto;
+    margin: 0 auto;
+    
 }
-
 
 .quote{
     font-style: italic;
@@ -181,3 +185,4 @@ header .center{
     border: 1px solid black;
     width: 2ch;
 }
+
