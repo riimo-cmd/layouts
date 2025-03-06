@@ -1,4 +1,4 @@
-let largeBanner = Math.floor(Math.random() * 3);
+
 let smallBanner = 0;
 
 let neo1 = "./images/likeyaknow.png";
@@ -13,37 +13,11 @@ let small3 = "./images/ia.png";
 let link3 = "https://archive.org"
 let small4 = "./images/gifcities.png";
 let link4 = "https://gifcities.org"
-let neocities = "https://neocities.org";
 
 
 
-// code for large banners
-let img1 = document.createElement("img");
-if(largeBanner === 0){
-    img1.src = neo1;
-    let src = document.getElementById("neocities");
-    img1.onclick = function() {
-        window.location.href = neocities;
-    };
-    src.appendChild(img1);
-}
-else if(largeBanner === 1){
-    img1.src = neo2;
-    let src = document.getElementById("neocities");
-    img1.onclick = function() {
-        window.location.href = neocities;
-    };
-    src.appendChild(img1);
-    
-}
-else {
-    img1.src = neo3;
-    let src = document.getElementById("neocities");
-    img1.onclick = function() {
-        window.location.href = neocities;
-    };
-    src.appendChild(img1);
-}
+
+
 
 // code for the first small banner
 smallBanner = Math.floor(Math.random() * 4);
